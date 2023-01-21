@@ -1,0 +1,247 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  padding: 0 10px;
+  margin: 0 120px;
+}
+
+.header {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+}
+
+.menu {
+  margin-right: 20px;
+}
+
+.menu__list {
+  display: flex;
+}
+
+.menu__item + .menu__item {
+  padding-left: 40px;
+}
+
+.menu__link {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 15px 20px;
+  transition: all 0.7s;
+}
+
+.menu__link:hover,
+.form__btn:hover {
+  background-color: #131313;
+  color: #fff;
+}
+
+.main {
+  padding: 60px 0;
+}
+
+.main__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-image {
+  flex-basis: 720px;
+  max-width: 720px;
+}
+
+.main__column-text {
+  padding-left: 50px;
+}
+
+.main__uppertext {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #999999;
+}
+
+.main__title {
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.main__text {
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.main__subtitle {
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #666666;
+}
+
+.main__subtext {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.posts__post {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.posts-image {
+  width: 387px;
+}
+
+.posts__uppertext,
+.latest-post__nav,
+.latest-posts__uppertext {
+  padding-top: 25px;
+  padding-bottom: 18px;
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #999999;
+}
+
+.posts__subtext,
+.latest-posts__subtext {
+  margin-top: 15px;
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.posts__text,
+.latest-posts__text {
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.line__first {
+  height: 1px;
+  background: #e6e6e6;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.latest-post__nav {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #999999;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+.latest-posts__post {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.latest-posts-image {
+  width: 285px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.form__btn {
+  margin: 40px 0 90px 0;
+  padding: 21px 26px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 0px;
+  height: 54px;
+  width: 205px;
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+  transition: all 0.7s;
+}
+
+.line__second {
+  height: 1px;
+  background: #e6e6e6;
+  margin-bottom: 90px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
